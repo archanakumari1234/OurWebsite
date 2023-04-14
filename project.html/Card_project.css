@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(212, 212, 212);
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    width: 400px;
+    height: 560px;
+    border: 2px solid black;
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 14px;
+    border: none;
+    box-shadow: 5px 5px 5px gray ,-5px -5px 5px white;
+}
+.top-section{
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    justify-content: space-around;
+}
+.profileImage{
+    height: 180px;
+    width: 180px;
+    border: 10px solid rgb(224, 223, 223);
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px gray ,-3px -3px 3px white;
+}
+.profileName{
+ font-size: 32px;
+ font-weight: 600;
+ color: rgb(91, 90, 90);
+}
+.profileWork{
+  font-size: 26px;
+  font-weight: 500;
+}
+.socialMedia{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 10px;
+} 
+.socialMedia i{
+    font-size: 20px;
+    
+}
+ 
+.socialMedia i:nth-child(1){
+    color: rgb(62, 62, 210);
+    border: 15px solid rgb(233, 233, 233);
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px gray ,-2px -2px 2px white;
+}
+.socialMedia i:nth-child(2){
+    color: rgb(63, 63, 215);
+    border: 15px solid rgb(233, 233, 233);
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px gray ,-2px -2px 2px white;
+}
+.socialMedia i:nth-child(3){
+    color: crimson;
+    border: 15px solid rgb(233, 233, 233);
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px gray ,-2px -2px 2px white;
+}
+.socialMedia i:nth-child(4){
+    color: red;
+    border: 15px solid rgb(233, 233, 233);
+    border-radius: 60%;
+    box-shadow: 2px 2px 2px gray ,-2px -2px 2px white;
+}
+.btn{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.btn button{
+     padding: 16px 40px;
+     background-color: rgb(233, 233, 233);
+     border: none;
+     font-size: 18px;
+     color: rgb(67, 67, 67);
+     border-radius: 10px;
+     box-shadow: 2px 2px 2px gray ,-2px -2px 2px white;
+     font-weight: 600;
+}
+.LikeCommentShare{
+    display: flex;
+    width: 100%;
+    font-size: 28px;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.LikeCommentShare span{
+    font-size: 16px;
+    color: rgb(37, 37, 37);
+}
+.saprate{
+    border-right: 2px solid rgb(97, 97, 97);
+    height: 40px;
+    padding-right: 30px;
+    
+}
+

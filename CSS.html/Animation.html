@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animaton in CSS</title>
+    <style>
+        div{
+            margin: auto;
+            border: 3px solid black;
+            position: relative;
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            animation-name: colorchange;
+            animation-duration: 3s;
+            animation-delay: 1s;
+            /* how many time an animation can run  */
+            /* animation-iteration-count: infinite; */
+            /* animation-iteration-count: 3; */
+            animation-direction: alternate;
+            /* animation-direction: alternate-reverse; */
+            /* animation-direction: reverse; */ 
+            /* animation-fill-mode: forwards; */
+            animation-fill-mode: backwards;
+        }
+        /* speed animation */
+        .linear{
+            animation-timing-function: linear;
+        }
+        .ease-in{
+            animation-timing-function: ease-in;
+        }
+        .ease-out{
+            animation-timing-function: ease-out;
+        }
+        .ease-in-out{
+            animation-timing-function: ease-in-out;
+        }
+        @keyframes colorchange {
+            0%{
+                background-color: blueviolet;
+                top: 0px;
+                left: 0px;
+                
+            }
+            25%{
+                background-color: chartreuse;
+                top: 0px;
+                left: 200px;
+               
+            }
+            50%{
+                background-color: crimson;
+                top: 200px;
+                left: 200px;
+              
+            }
+            75%{
+                background-color: gold;
+                top: 200px;
+                right: 0px;
+              
+            }
+
+            100%{background-color: brown;
+            top: 0px;
+            left: 0px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="linear"></div>
+    <div class="ease-in"></div>
+    <div class="ease-out"></div>
+    <div class="ease-in-out"></div>
+</body>
+</html>

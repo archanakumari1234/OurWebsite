@@ -1,0 +1,104 @@
+/* css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/* browser */
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(195, 195, 195);
+    color: gray;
+}
+
+.card{
+    width: 300px;
+    height: 450px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    /* box-shadow: 0 0 5px red; */
+    box-shadow: 5px 5px 5px gray, -5px -5px 5px white;
+}
+
+.profileImage{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 50%;
+    border: 5px solid rgb(191, 191, 191);
+    box-shadow: 2px 2px 2px gray, -2px -2px 2px white;
+}
+
+.profleName{
+font-weight: 600;
+line-height: 20px;
+}
+
+.profileDetail{
+    font-weight: 500;
+}
+
+.topSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.socialMedia{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.socialMedia i{
+    font-size: 25px;
+}
+
+.socialMedia i:first-child{
+    color: blue;
+}
+
+.socialMedia i:last-child{
+    color: red;
+}
+
+.socialMedia i:nth-child(2){
+    color: green;
+}
+
+.socialMedia i:nth-child(3){
+    color: rgb(255, 147, 165);
+}
+
+.myBtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myBtn button{
+    padding: 5px 15px;
+}
+
+
+.LikeAndComment{
+    display: flex;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query</title>
+  <style>
+    /* div{
+            text-align: center;
+            font-size: xx-large;
+        }
+        @media(max-width: 600px){
+              body{
+                background-color: aquamarine;
+              }
+              div::after{
+                content: "This screen is compatible for the phones";
+              }
+        }
+        @media(min-width: 600px){
+                body{
+                    background-color: chartreuse;
+                }
+                div::after{
+                    content: "This is compatible for the Larger phones or tablets screens";
+                }
+              }
+              @media(min-width:750px){
+                body{
+                    background-color: cornflowerblue;
+                }
+                div::after{
+                    content: "This is compatible for the Laptop's screens";
+                }
+              }
+              @media(min-width:1000px){
+                body{
+                    background-color: crimson;
+                }
+                div::after{
+                    content: "This is compatible for the Big screens like PC";
+                }
+              } */
+    .container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: auto;
+      
+    }
+
+    .a {
+      padding: auto;
+      height: 200px;
+      width: 200px;
+      border: 2px solid black;
+      margin: 6px;
+    }
+    .a1{
+      background-color: rgb(207, 195, 28);
+    }
+    .a2{
+      background-color: aqua;
+    }
+    .a3{
+      background-color: darkorange;
+    }
+    .a4{
+      background-color:blue;
+    }
+    .a5{
+      background-color: crimson;
+    }
+     @media screen and (max-width:640px){
+          .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+          }
+              }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="a a1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, incidunt ipsum fugit esse repellendus expedita, aliquid architecto minus, natus quasi placeat sint id impedit qui porro eaque aliquam ipsa possimus.</div>
+    <div class="a a2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis aliquam iusto, tenetur quis, quos veniam, laboriosam facilis adipisci quisquam molestias eos sed repudiandae officia omnis eaque distinctio architecto quo error.</div>
+    <div class="a a3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias cumque molestiae necessitatibus placeat, commodi veniam amet, ipsam dolorem beatae esse similique sint, laudantium natus. Aliquam doloribus suscipit facere placeat veniam.</div>
+    <div class="a a4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aspernatur ipsam, illo nam numquam non, soluta nihil facilis amet id unde dolore molestias consectetur, doloremque provident voluptatum odit aut temporibus.</div>
+    <div class="a a5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro repudiandae est, laborum dignissimos qui in! Iusto veritatis blanditiis eligendi magni? Corporis, quod. Odit, possimus impedit nostrum expedita laudantium quibusdam aspernatur.</div>
+  </div>
+</body>
+
+</html>

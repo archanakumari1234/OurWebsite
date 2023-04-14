@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .a{
+            height: 150px;
+            width: 150px;
+            border: 1px solid black;
+        }
+        .aa{
+            display: flex;
+            /* display: inline-flex; */
+            height: 300px;
+            border: 1px solid black;
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column-reverse; */
+            /* flex-wrap: wrap; */
+            /* flex-wrap: wrap-reverse; */
+            /* justify-content: center; */
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* align-items: stretch; */
+            /* align-items: center; */
+            /* align-content: center; */
+            /* gap: 10px; */
+            /* column-gap: 10px; */
+        }
+
+        .b1{
+            background-color: #00ffff;
+            flex-grow: 1;
+            /* order: 2; */
+        }
+        .b2{
+            background-color: #c71585;
+            flex-grow: 2;
+            flex-shrink: 3;
+            align-self: center;
+            /* order: 2; */
+        }
+        .b3{
+            background-color: #adff2f;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="aa">
+    <div class="a b1">First</div>
+    <div class="a b2">Second</div>
+    <div class="a b3">Third</div>
+</div>
+</body>
+</html>

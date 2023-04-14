@@ -1,0 +1,53 @@
+/* universal selector= this selector is use for all elements */
+*{
+    font-style: italic;
+}
+/* element selector= this selector target any element to give css */
+p{
+    color: blue;
+}
+/* class selector */
+.heading{
+    color: aqua;
+}
+.h{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* id selectr */
+#h2{
+    background-color: blueviolet;
+}
+/* selectorlist */
+.h, #h2, .h3{
+    font-size: 20px;
+}
+/* descendent selector */
+div p{
+    color: brown;
+}
+/* child selector */
+section > div > p{
+    color: teal;
+    font-weight: 1000;
+    font-size: 30px;
+}
+/* adjacent sibling selector */
+main+p{
+    color: yellowgreen;
+    font-size: xx-large ;
+}
+/* general sbling */
+footer~p{
+    color: tomato;
+}
+/* attribute selector */
+[target="_blank"]{
+    font-size: x-large;
+    color: brown;
+}
+[alt~="IMAGE"]{
+    color: blue;
+    
+    font-size: xx-large;
+    background-color: brown;
+}

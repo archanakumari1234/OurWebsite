@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+  }
+.bgimage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+nav{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+button{
+    background-color:crimson;
+    color: white;
+    border: 0px;
+}
+nav img{
+    width: 130px;
+    margin-left: 15px;
+}
+
+nav .menu{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-left: 370px;
+    margin-top: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 22px; */ 
+    color: #ffc233;
+
+}
+nav .menu ul{
+    display: flex;
+    gap: 80px;
+}
+nav div button{
+    font-weight: 600;
+    font-size: 16px;
+    border: 0px;
+    padding: 12px 35px 12px 35px;
+    margin-left: 270px;
+}
+.section div{
+    margin-top: 150px;
+    text-align: center;
+}
+.section div button{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 40px 15px 40px;
+}
+.section div h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 89px;
+    line-height: 104px;
+    color: #ffc233;
+    font-family: "Dela Gothic One", cursive;
+}
+footer img{
+    height: 110px;
+    width: 110px;
+    float: right;
+}

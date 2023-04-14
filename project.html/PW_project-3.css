@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lobster', cursive;
+    font-family: 'Poppins', sans-serif; ;
+}
+body{
+    background-image: url(/assets/bg.png);
+    background-size: 100% 800px;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+button{
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(186, 35, 151);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid rgb(193, 31, 155);
+}
+.head{
+    background-color: black;
+    display: flex;
+    /* height: 80px; */
+    margin-top: 0;
+}
+.header{
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    justify-content: center;
+    line-height: 15px;
+}
+.logo{
+    padding-bottom: 20px;
+    padding-left: 15px;
+    height: 60px;
+}
+.saprate{
+    width: 1px;
+    height: 50px;
+    margin-left: 100px;
+    justify-content: center;
+    border: 1px solid white;
+}
+.header ul{
+     display: flex;
+     gap: 80px;
+     margin-top: 14px;
+}
+ul li a{
+    color: white;
+    font-weight: 600;
+}
+.btn{
+    margin-left: 190px;
+}
+
+.heading{
+  font-size: 80px;
+  color: white;
+  margin-left: 430px;
+  margin-top: 100px;
+}
+.sect .paragraph{
+    color: white;
+    padding-left: 550px;
+    word-spacing: 7px;
+    font-size: 20px; 
+}
+.sect button{
+    margin-left: 670px;
+    margin-top: 30px;
+}
